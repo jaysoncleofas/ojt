@@ -746,6 +746,15 @@
   background-color: #00d1b2;
 }
 
+#endo {
+  padding: .3rem 0 .3rem 2rem;
+  font-size: 1em;
+}
+
+div .section {
+  padding-top: 1.5rem;
+}
+
 .side-menu {
   position: fixed;
   top: 3.3rem;
@@ -755,7 +764,7 @@
   padding: 1rem;
   background: white;
   overflow-y: scroll;
-  z-index: 100;
+  z-index: 1;
   -webkit-transition: left 0.3s ease-in-out;
   transition: left 0.3s ease-in-out;
 }
@@ -770,6 +779,7 @@
   position: absolute;
   left: 250px;
   right: 0;
+  background-color: whitesmoke;
 }
 
 a .dataTables_wrapper .dataTables_paginate .paginate_button.current {
@@ -841,6 +851,11 @@ a .dataTables_wrapper .dataTables_paginate .paginate_button.current {
   font-size: 1em;
   outline: none;
   margin-top: -6px;
+}
+
+body {
+  height: 100vh;
+  background-color: whitesmoke;
 }
 
 /*! bulma.io v0.6.2 | MIT License | github.com/jgthms/bulma */

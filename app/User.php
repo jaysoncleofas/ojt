@@ -31,4 +31,9 @@ class User extends Authenticatable
     {
         return $this->belongsTo('App\Department');
     }
+
+    public function ojts()
+    {
+        return $this->hasMany('App\Ojt');
+    }
 }

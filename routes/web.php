@@ -19,4 +19,4 @@ Auth::routes();
 
 Route::get('/dashboard', 'PageController@index')->name('dashboard');
 Route::get('/departments', 'PageController@departments')->name('departments');
-Route::get('/departments/getdata', 'PageController@getdata')->name('departments.getdata');
+Route::resource('/applications', 'ApplicationController');

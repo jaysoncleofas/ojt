@@ -30,3 +30,15 @@
   </div>
 </div>
 @endsection
+
+@section('scripts')
+  <script>
+  $(document).ready( function () {
+    $.fn.dataTable.ext.classes.sPageButton = 'button pagination-link';
+    $.fn.dataTable.ext.classes.sPageButtonActive = 'button is-current';
+    $('.dept').DataTable({
+        "processing": true,
+    });
+  } );
+  </script>
+@endsection

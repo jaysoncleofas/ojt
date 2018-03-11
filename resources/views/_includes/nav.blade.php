@@ -22,7 +22,7 @@
         @else
           <div class="navbar-item has-dropdown is-hoverable">
             <a href="" class="navbar-link">
-              {{ Auth::user()->name }}
+              {{ Auth::user()->email }}
             </a>
             <div class="navbar-dropdown is-right">
               <a href="{{ route('logout') }}" class="navbar-item" onclick="event.preventDefault();

@@ -30,15 +30,6 @@
     {{-- datatables --}}
     <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/dt/dt-1.10.16/datatables.min.css"/>
     <script type="text/javascript" src="https://cdn.datatables.net/v/dt/dt-1.10.16/datatables.min.js"></script>
-
-<script>
-$(document).ready( function () {
-  $.fn.dataTable.ext.classes.sPageButton = 'button pagination-link';
-  $.fn.dataTable.ext.classes.sPageButtonActive = 'button is-current';
-  $('.dept').DataTable({
-      "processing": true,
-  });
-} );
-</script>
+    @yield('scripts')
 </body>
 </html>

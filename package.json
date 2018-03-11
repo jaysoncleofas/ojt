@@ -23,6 +23,8 @@
         "datatables.net-buttons-dt": "^1.5.1",
         "datatables.net-dt": "^1.10.16",
         "datatables.net-responsive-dt": "^2.2.1",
-        "font-awesome": "^4.7.0"
+        "font-awesome": "^4.7.0",
+        "moment": "^2.21.0",
+        "vue-router": "^3.0.1"
     }
 }

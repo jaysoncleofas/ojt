@@ -20,7 +20,7 @@
             <div class="container">
               <div class="columns">
                 <div class="column is-one-third is-offset-one-third">
-                  <div class="card">
+                  <div class="card mt-5">
                     <div class="card-header is-prmry">
                       <p class="card-header-title has-text-white">
                         Log In
